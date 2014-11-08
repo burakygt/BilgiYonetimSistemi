@@ -1,0 +1,23 @@
+c:\users\burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.ORM\bin\Debug\BilgiYönetimSistemi.ORM.dll
+c:\users\burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.ORM\bin\Debug\BilgiYönetimSistemi.ORM.pdb
+c:\users\burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.ORM\obj\Debug\BilgiYönetimSistemi.ORM.csprojResolveAssemblyReference.cache
+c:\users\burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.ORM\obj\Debug\BilgiYönetimSistemi.ORM.dll
+c:\users\burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.ORM\obj\Debug\BilgiYönetimSistemi.ORM.pdb
+C:\Users\Burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.ORM\bin\Debug\itextsharp.dll
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.ORM\bin\Debug\BilgiYönetimSistemi.ORM.dll
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.ORM\bin\Debug\BilgiYönetimSistemi.ORM.pdb
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.ORM\bin\Debug\itextsharp.dll
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.ORM\obj\Debug\BilgiYönetimSistemi.ORM.csprojResolveAssemblyReference.cache
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.ORM\obj\Debug\BilgiYönetimSistemi.ORM.dll
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.ORM\obj\Debug\BilgiYönetimSistemi.ORM.pdb
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.ORM\bin\Debug\BilgiYönetimSistemi.ORM.dll
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.ORM\bin\Debug\BilgiYönetimSistemi.ORM.pdb
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.ORM\bin\Debug\itextsharp.dll
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.ORM\obj\Debug\BilgiYönetimSistemi.ORM.dll
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.ORM\obj\Debug\BilgiYönetimSistemi.ORM.pdb
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.ORM\bin\Debug\BilgiYönetimSistemi.ORM.dll
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.ORM\bin\Debug\BilgiYönetimSistemi.ORM.pdb
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.ORM\bin\Debug\itextsharp.dll
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.ORM\obj\Debug\BilgiYönetimSistemi.ORM.csprojResolveAssemblyReference.cache
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.ORM\obj\Debug\BilgiYönetimSistemi.ORM.dll
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.ORM\obj\Debug\BilgiYönetimSistemi.ORM.pdb

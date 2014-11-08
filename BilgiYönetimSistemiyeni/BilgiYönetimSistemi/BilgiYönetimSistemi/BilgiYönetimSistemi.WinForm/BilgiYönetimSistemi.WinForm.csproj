@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DEDE03FE-9E3D-4C73-83DA-8A00124474B5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BilgiYönetimSistemi.WinForm</RootNamespace>
+    <AssemblyName>BilgiYönetimSistemi.WinForm</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v14.1.Core, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v14.1.Core, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.PivotGrid.v14.1.Core, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v14.1.Core, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v14.1.Core, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v14.1.Core, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v14.1.UI, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v14.1.UI, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v14.1.Wizard, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v14.1.Core, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v14.1.Win, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v14.1.Extensions, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="itextsharp, Version=4.1.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Win32.TaskScheduler">
+      <HintPath>..\Microsoft.Win32.TaskScheduler.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AktiviteGörevForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AktiviteGörevForm.Designer.cs">
+      <DependentUpon>AktiviteGörevForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnaForm.Designer.cs">
+      <DependentUpon>AnaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BilgilendirmeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BilgilendirmeForm.Designer.cs">
+      <DependentUpon>BilgilendirmeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EkipPersonelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EkipPersonelForm.Designer.cs">
+      <DependentUpon>EkipPersonelForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GarantiDurumForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GarantiDurumForm.Designer.cs">
+      <DependentUpon>GarantiDurumForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GruplarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GruplarForm.Designer.cs">
+      <DependentUpon>GruplarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GörevStatüleriForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GörevStatüleriForm.Designer.cs">
+      <DependentUpon>GörevStatüleriForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hatirlatma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hatirlatma.Designer.cs">
+      <DependentUpon>Hatirlatma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IscilikForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IscilikForm.Designer.cs">
+      <DependentUpon>IscilikForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IscilikTanimlariForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IscilikTanimlariForm.Designer.cs">
+      <DependentUpon>IscilikTanimlariForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IslemDurumForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IslemDurumForm.Designer.cs">
+      <DependentUpon>IslemDurumForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KategorilerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KategorilerForm.Designer.cs">
+      <DependentUpon>KategorilerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MusteriDetayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MusteriDetayForm.Designer.cs">
+      <DependentUpon>MusteriDetayForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GirisForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GirisForm.Designer.cs">
+      <DependentUpon>GirisForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProblemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProblemForm.Designer.cs">
+      <DependentUpon>ProblemForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Raporlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Raporlar.Designer.cs">
+      <DependentUpon>Raporlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServisTakipFormu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServisTakipFormu.Designer.cs">
+      <DependentUpon>ServisTakipFormu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen1.Designer.cs">
+      <DependentUpon>SplashScreen1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UrunlerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UrunlerForm.Designer.cs">
+      <DependentUpon>UrunlerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WaitForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaitForm1.Designer.cs">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XtraReport1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XtraReport1.Designer.cs">
+      <DependentUpon>XtraReport1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YönetimForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YönetimForm.Designer.cs">
+      <DependentUpon>YönetimForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AktiviteGörevForm.resx">
+      <DependentUpon>AktiviteGörevForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnaForm.resx">
+      <DependentUpon>AnaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BilgilendirmeForm.resx">
+      <DependentUpon>BilgilendirmeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EkipPersonelForm.resx">
+      <DependentUpon>EkipPersonelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GarantiDurumForm.resx">
+      <DependentUpon>GarantiDurumForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GruplarForm.resx">
+      <DependentUpon>GruplarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GörevStatüleriForm.resx">
+      <DependentUpon>GörevStatüleriForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hatirlatma.resx">
+      <DependentUpon>Hatirlatma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IscilikForm.resx">
+      <DependentUpon>IscilikForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IscilikTanimlariForm.resx">
+      <DependentUpon>IscilikTanimlariForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IslemDurumForm.resx">
+      <DependentUpon>IslemDurumForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KategorilerForm.resx">
+      <DependentUpon>KategorilerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MusteriDetayForm.resx">
+      <DependentUpon>MusteriDetayForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GirisForm.resx">
+      <DependentUpon>GirisForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProblemForm.resx">
+      <DependentUpon>ProblemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Raporlar.resx">
+      <DependentUpon>Raporlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServisTakipFormu.resx">
+      <DependentUpon>ServisTakipFormu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UrunlerForm.resx">
+      <DependentUpon>UrunlerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitForm1.resx">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XtraReport1.resx">
+      <DependentUpon>XtraReport1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YönetimForm.resx">
+      <DependentUpon>YönetimForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BilgiYönetimSistemi.ORM\BilgiYönetimSistemi.ORM.csproj">
+      <Project>{d30db494-e22c-4dab-af3f-f10320b6fdda}</Project>
+      <Name>BilgiYönetimSistemi.ORM</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Calculator-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\SMS-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\social-facebook-box-blue-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Ok-icon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgiYönetimSistemi.WinForm", "BilgiYönetimSistemi.WinForm\BilgiYönetimSistemi.WinForm.csproj", "{DEDE03FE-9E3D-4C73-83DA-8A00124474B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgiYönetimSistemi.ORM", "BilgiYönetimSistemi.ORM\BilgiYönetimSistemi.ORM.csproj", "{D30DB494-E22C-4DAB-AF3F-F10320B6FDDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEDE03FE-9E3D-4C73-83DA-8A00124474B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEDE03FE-9E3D-4C73-83DA-8A00124474B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEDE03FE-9E3D-4C73-83DA-8A00124474B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEDE03FE-9E3D-4C73-83DA-8A00124474B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D30DB494-E22C-4DAB-AF3F-F10320B6FDDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D30DB494-E22C-4DAB-AF3F-F10320B6FDDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D30DB494-E22C-4DAB-AF3F-F10320B6FDDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D30DB494-E22C-4DAB-AF3F-F10320B6FDDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

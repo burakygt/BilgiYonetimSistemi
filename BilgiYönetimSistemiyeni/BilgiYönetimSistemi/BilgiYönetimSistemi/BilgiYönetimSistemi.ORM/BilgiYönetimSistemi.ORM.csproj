@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D30DB494-E22C-4DAB-AF3F-F10320B6FDDA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BilgiYönetimSistemi.ORM</RootNamespace>
+    <AssemblyName>BilgiYönetimSistemi.ORM</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>..\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Araclar.cs" />
+    <Compile Include="Entity\AktiviteGörev.cs" />
+    <Compile Include="Entity\EkipPersonel.cs" />
+    <Compile Include="Entity\GarantiDurum.cs" />
+    <Compile Include="Entity\Grup.cs" />
+    <Compile Include="Entity\GörevStatu.cs" />
+    <Compile Include="Entity\Iscilik.cs" />
+    <Compile Include="Entity\IscilikTanim.cs" />
+    <Compile Include="Entity\IslemDurum.cs" />
+    <Compile Include="Entity\Kategori.cs" />
+    <Compile Include="Entity\Kullanıcı.cs" />
+    <Compile Include="Entity\Musteri.cs" />
+    <Compile Include="Entity\MusteriDetay.cs" />
+    <Compile Include="Entity\Problem.cs" />
+    <Compile Include="Entity\ServisTakip.cs" />
+    <Compile Include="Entity\Urun.cs" />
+    <Compile Include="Facade\AktiviteGörevler.cs" />
+    <Compile Include="Facade\EkipPersoneller.cs" />
+    <Compile Include="Facade\GarantiDurumlar.cs" />
+    <Compile Include="Facade\Gruplar.cs" />
+    <Compile Include="Facade\GörevStatuler.cs" />
+    <Compile Include="Facade\Iscilikler.cs" />
+    <Compile Include="Facade\IscilikTanimlar.cs" />
+    <Compile Include="Facade\IslemDurumlar.cs" />
+    <Compile Include="Facade\Kategoriler.cs" />
+    <Compile Include="Facade\Kullanıcılar.cs" />
+    <Compile Include="Facade\MusteriDetaylar.cs" />
+    <Compile Include="Facade\Musteriler.cs" />
+    <Compile Include="Facade\Problemler.cs" />
+    <Compile Include="Facade\ServisTakipler.cs" />
+    <Compile Include="Facade\Urunler.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sorgular.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,197 @@
+c:\users\burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\BilgiYönetimSistemi.WinForm.exe.config
+c:\users\burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.csprojResolveAssemblyReference.cache
+c:\users\burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.MusteriForm.resources
+c:\users\burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.Properties.Resources.resources
+c:\users\burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.csproj.GenerateResource.Cache
+c:\users\burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.exe.licenses
+c:\users\burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\BilgiYönetimSistemi.WinForm.exe
+c:\users\burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\BilgiYönetimSistemi.WinForm.pdb
+c:\users\burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\BilgiYönetimSistemi.ORM.dll
+c:\users\burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\BilgiYönetimSistemi.ORM.pdb
+c:\users\burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.exe
+c:\users\burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.pdb
+C:\Users\Burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.MusteriDetayForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.GruplarForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.KategorilerForm.resources
+C:\Users\Burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.ServisTakipFormu.resources
+C:\Users\Burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.UrunlerForm.resources
+C:\Users\Burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.GarantiDurumForm.resources
+C:\Users\Burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.IslemDurumForm.resources
+C:\Users\Burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.EkipPersonelForm.resources
+C:\Users\Burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.BilgilendirmeForm.resources
+C:\Users\Burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.SplashScreen1.resources
+C:\Users\Burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.WaitForm1.resources
+C:\Users\Burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.AnaForm.resources
+C:\Users\Burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.AktiviteGörevForm.resources
+C:\Users\Burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.ProblemForm.resources
+C:\Users\Burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.GörevStatüleriForm.resources
+C:\Users\Burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\itextsharp.dll
+C:\Users\Burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.IscilikForm.resources
+C:\Users\Burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.IscilikTanimlariForm.resources
+C:\Users\Burak\documents\visual studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.Raporlar.resources
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\BilgiYönetimSistemi.WinForm.exe.config
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.exe
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.pdb
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.csprojResolveAssemblyReference.cache
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.AktiviteGörevForm.resources
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.AnaForm.resources
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.BilgilendirmeForm.resources
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.EkipPersonelForm.resources
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.GarantiDurumForm.resources
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.GruplarForm.resources
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.GörevStatüleriForm.resources
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.IscilikForm.resources
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.IscilikTanimlariForm.resources
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.IslemDurumForm.resources
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.KategorilerForm.resources
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.MusteriDetayForm.resources
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.MusteriForm.resources
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.ProblemForm.resources
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.Properties.Resources.resources
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.Raporlar.resources
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.ServisTakipFormu.resources
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.SplashScreen1.resources
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.UrunlerForm.resources
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.WaitForm1.resources
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.csproj.GenerateResource.Cache
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\BilgiYönetimSistemi.WinForm.exe
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\BilgiYönetimSistemi.WinForm.pdb
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\BilgiYönetimSistemi.ORM.dll
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\itextsharp.dll
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\BilgiYönetimSistemi.ORM.pdb
+C:\Users\Sek\Downloads\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.exe.licenses
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\BilgiYönetimSistemi.WinForm.exe.config
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.exe
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.pdb
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\BilgiYönetimSistemi.WinForm.exe
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\BilgiYönetimSistemi.WinForm.pdb
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\BilgiYönetimSistemi.ORM.dll
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\itextsharp.dll
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\BilgiYönetimSistemi.ORM.pdb
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.csprojResolveAssemblyReference.cache
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.AktiviteGörevForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.AnaForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.BilgilendirmeForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.EkipPersonelForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.GarantiDurumForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.GruplarForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.GörevStatüleriForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.IscilikForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.IscilikTanimlariForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.IslemDurumForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.KategorilerForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.MusteriDetayForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.MusteriForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.ProblemForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.Properties.Resources.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.Raporlar.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.ServisTakipFormu.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.SplashScreen1.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.UrunlerForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.WaitForm1.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.csproj.GenerateResource.Cache
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi (1)\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.exe.licenses
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\BilgiYönetimSistemi.WinForm.exe.config
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.exe
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.pdb
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\BilgiYönetimSistemi.WinForm.exe
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\BilgiYönetimSistemi.WinForm.pdb
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\BilgiYönetimSistemi.ORM.dll
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\itextsharp.dll
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\BilgiYönetimSistemi.ORM.pdb
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.csprojResolveAssemblyReference.cache
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.AktiviteGörevForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.AnaForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.BilgilendirmeForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.EkipPersonelForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.GarantiDurumForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.GruplarForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.GörevStatüleriForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.IscilikForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.IscilikTanimlariForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.IslemDurumForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.KategorilerForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.MusteriDetayForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.ProblemForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.Properties.Resources.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.Raporlar.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.ServisTakipFormu.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.SplashScreen1.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.UrunlerForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.WaitForm1.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.csproj.GenerateResource.Cache
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.exe.licenses
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.GirisForm.resources
+C:\Users\Sek\Downloads\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\BilgiYönetimSistemi.WinForm.exe.config
+C:\Users\Sek\Downloads\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.exe
+C:\Users\Sek\Downloads\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.pdb
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\BilgiYönetimSistemi.WinForm.exe.config
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.exe
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.pdb
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\BilgiYönetimSistemi.WinForm.exe
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\BilgiYönetimSistemi.WinForm.pdb
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\BilgiYönetimSistemi.ORM.dll
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\itextsharp.dll
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\Microsoft.Win32.TaskScheduler.dll
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\BilgiYönetimSistemi.ORM.pdb
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.csprojResolveAssemblyReference.cache
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.AktiviteGörevForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.AnaForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.BilgilendirmeForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.EkipPersonelForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.GarantiDurumForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.GruplarForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.GörevStatüleriForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.Hatirlatma.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.IscilikForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.IscilikTanimlariForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.IslemDurumForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.KategorilerForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.MusteriDetayForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.GirisForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.ProblemForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.Properties.Resources.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.Raporlar.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.ServisTakipFormu.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.SplashScreen1.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.UrunlerForm.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.WaitForm1.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.XtraReport1.resources
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.csproj.GenerateResource.Cache
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.exe.licenses
+C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.YönetimForm.resources
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\BilgiYönetimSistemi.WinForm.exe.config
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.exe
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.pdb
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\BilgiYönetimSistemi.WinForm.exe
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\BilgiYönetimSistemi.WinForm.pdb
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\BilgiYönetimSistemi.ORM.dll
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\itextsharp.dll
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\Microsoft.Win32.TaskScheduler.dll
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\bin\Debug\BilgiYönetimSistemi.ORM.pdb
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.csprojResolveAssemblyReference.cache
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.AktiviteGörevForm.resources
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.AnaForm.resources
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.BilgilendirmeForm.resources
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.EkipPersonelForm.resources
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.GarantiDurumForm.resources
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.GruplarForm.resources
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.GörevStatüleriForm.resources
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.Hatirlatma.resources
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.IscilikForm.resources
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.IscilikTanimlariForm.resources
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.IslemDurumForm.resources
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.KategorilerForm.resources
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.MusteriDetayForm.resources
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.GirisForm.resources
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.ProblemForm.resources
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.Properties.Resources.resources
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.Raporlar.resources
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.ServisTakipFormu.resources
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.SplashScreen1.resources
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.UrunlerForm.resources
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.WaitForm1.resources
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.XtraReport1.resources
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.YönetimForm.resources
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.csproj.GenerateResource.Cache
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.WinForm\obj\Debug\BilgiYönetimSistemi.WinForm.exe.licenses
