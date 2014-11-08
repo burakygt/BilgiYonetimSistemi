@@ -389,10 +389,14 @@
             // comboIslemDurum
             // 
             this.comboIslemDurum.FormattingEnabled = true;
+            this.comboIslemDurum.Items.AddRange(new object[] {
+            "Tamamlandı",
+            "Teslim Edildi"});
             this.comboIslemDurum.Location = new System.Drawing.Point(126, 87);
             this.comboIslemDurum.Name = "comboIslemDurum";
             this.comboIslemDurum.Size = new System.Drawing.Size(167, 21);
             this.comboIslemDurum.TabIndex = 23;
+            this.comboIslemDurum.Text = "Bir işlem durumu giriniz";
             this.comboIslemDurum.SelectedIndexChanged += new System.EventHandler(this.comboIslemDurum_SelectedIndexChanged);
             // 
             // txtGarantiDurum
