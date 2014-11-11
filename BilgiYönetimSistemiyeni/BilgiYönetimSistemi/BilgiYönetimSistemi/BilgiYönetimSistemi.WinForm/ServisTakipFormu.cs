@@ -19,6 +19,8 @@ using DevExpress.XtraReports.Data;
 using DevExpress.XtraReports.Configuration;
 using DevExpress.XtraReports.Design;
 using DevExpress.XtraReports.UI;
+using DevExpress.Data.Mask;
+using DevExpress.XtraEditors;
 
 namespace BilgiYönetimSistemi.WinForm
 {
@@ -39,8 +41,9 @@ namespace BilgiYönetimSistemi.WinForm
 
 
         #endregion
-        int formkodu;
+        public static int formkodu,hatirlat;
         string tel;
+        
         public static int cariKodd;// yeni eklenen kod_hakan
         
         private void ServisTakipFormu_Load(object sender, EventArgs e)
@@ -110,7 +113,8 @@ namespace BilgiYönetimSistemi.WinForm
             iscidoldur();
             ComboDoldur();
             UrunDoldurma();
-
+            toggleSwitch1.Properties.OffText = "Hatırlatma";
+            toggleSwitch1.Properties.OnText = "Hatırlat";
             
             #region hakan_formkoduarttırma
             if (beFormNo.Text == "")
@@ -375,13 +379,13 @@ namespace BilgiYönetimSistemi.WinForm
         }
         private void bKaydet_Click(object sender, EventArgs e)
         {
-            
+
             try
             {
                 #region kayıt
                 ServisTakip entity = new ServisTakip();
                 entity.formno = formkodu;
-                entity.carikod =cariKodd;
+                entity.carikod = cariKodd;
                 entity.cariunvan = txtUnvan.Text;
                 entity.kategori = beKategori.Text;
                 entity.girisbilgisi = dtGiris.Value;
@@ -429,11 +433,12 @@ namespace BilgiYönetimSistemi.WinForm
                 {
                     entity.montaj = Convert.ToBoolean(0);
                 }
+                
 
                 #endregion
                 entity.uruncinsi = comboUrun.Text;
                 entity.marka = comboMarka.Text;
-                entity.model = comboModel.Text; 
+                entity.model = comboModel.Text;
                 entity.serino = Convert.ToInt32(comboSeriNo.Text);
                 entity.barkodno = Convert.ToInt32(beBarkod.Text);
                 entity.isiyapan = comboIsiYapan.Text;
@@ -450,51 +455,52 @@ namespace BilgiYönetimSistemi.WinForm
                 entity.cevap3 = txtCevap3.Text;
                 entity.isletimsistemi = comboIsletim.Text;
                 entity.konsolturu = comboKonsol.Text;
-                entity.kolsayisi =Convert.ToInt32( numericUpDown1.Value);
+                entity.kolsayisi = Convert.ToInt32(numericUpDown1.Value);
                 entity.islemiyapan = Araclar.kullaniciadi;
                 if (!ServisTakipler.Ekle(entity))
                     MessageBox.Show("Servis Eklenemedi");
                 else
                 {
                     MessageBox.Show("Servis başarıyla eklenmiştir..");
+                    AktiviteGörevForm akt = new AktiviteGörevForm();
+                    akt.txtCariKod.Text = txtCariKod.Text;
+                    akt.txtTicariUnvan.Text = txtUnvan.Text;
+                    akt.dtGörevBasTarih.Value = dtGiris.Value;
+                    AktiviteGörevForm.hatirlat = hatirlat;
+                    // hakan tahmini görev süresi
+                    akt.dtGörevBitis.Value = dtTeslim.Value;
+                    akt.dtHatirlatma.Value = dtTaahhüt.Value;
+                    akt.txtServisFormno.Text = formkodu.ToString();
+                    akt.txtGarantiDurum.Text = comboGarantiDurum.Text;
+                    akt.txtUrunDetay.Text = comboUrun.Text + comboMarka.Text + comboModel.Text;
+                    akt.comboIslemDurum.Text = comboIslemDurum.Text;
+                    akt.comboPersAdi.Text = comboIsiYapan.Text;
+
+
+                    akt.txtCariKod.Enabled = false;
+                    akt.txtTicariUnvan.Enabled = false;
+                    akt.dtGörevBasTarih.Enabled = false;
+                    akt.dtGörevBitis.Enabled = false;
+                    akt.dtHatirlatma.Enabled = false;
+                    akt.txtServisFormno.Enabled = false;
+                    akt.txtGarantiDurum.Enabled = false;
+                    akt.txtUrunDetay.Enabled = false;
+                    akt.comboIslemDurum.Enabled = false;
+                    akt.comboPersAdi.Enabled = false;
+                    //akt.kayit();
+                    akt.Show();
+                    akt.BringToFront();
+                    this.Close();
                 }
                 gridIsci.DataSource = ServisTakipler.Listele();
                 #endregion
-                
+
             }
             catch (Exception)
             {
 
                 MessageBox.Show("Hata");
             }
-            AktiviteGörevForm akt = new AktiviteGörevForm();
-            akt.txtCariKod.Text = txtCariKod.Text;
-            akt.txtTicariUnvan.Text = txtUnvan.Text;
-            akt.dtGörevBasTarih.Value = dtGiris.Value;
-            // hakan tahmini görev süresi
-            akt.dtGörevBitis.Value = dtTeslim.Value;
-            akt.dtHatirlatma.Value = dtTaahhüt.Value;
-            akt.txtServisFormno.Text = formkodu.ToString();
-            akt.txtGarantiDurum.Text = comboGarantiDurum.Text;
-            akt.txtUrunDetay.Text = comboUrun.Text + comboMarka.Text + comboModel.Text;
-            akt.comboIslemDurum.Text = comboIslemDurum.Text;
-            akt.comboPersAdi.Text = comboIsiYapan.Text;
-
-
-            akt.txtCariKod.Enabled = false;
-            akt.txtTicariUnvan.Enabled = false;
-            akt.dtGörevBasTarih.Enabled = false;
-            akt.dtGörevBitis.Enabled = false;
-            akt.dtHatirlatma.Enabled = false;
-            akt.txtServisFormno.Enabled = false;
-            akt.txtGarantiDurum.Enabled = false;
-            akt.txtUrunDetay.Enabled = false;
-            akt.comboIslemDurum.Enabled = false;
-            akt.comboPersAdi.Enabled = false;
-            //akt.kayit();
-            akt.Show();
-            this.Close();
-
         }
 
         private void bKaydetKapat_Click(object sender, EventArgs e)
@@ -837,6 +843,23 @@ namespace BilgiYönetimSistemi.WinForm
         private void btnYenile_Click(object sender, EventArgs e)
         {
             iscidoldur();
+        }
+
+        private void toggleSwitch1_Toggled(object sender, EventArgs e)
+        {
+            ToggleSwitch toggleSwitch = sender as ToggleSwitch;
+            if (toggleSwitch != null)
+            {
+                if (toggleSwitch.IsOn == true)
+                {
+                    hatirlat = 1;
+                    
+                }
+                else
+                {
+                    hatirlat = 0;
+                }
+            }
         }
 
         

@@ -27,7 +27,7 @@ namespace BilgiYönetimSistemi.WinForm
             InitializeComponent();
         }
         public static SqlConnection baglanti = new SqlConnection(ConfigurationManager.ConnectionStrings["BYS_baglanti"].ConnectionString);
-
+        int calis;
         private void barButtonItem1_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             EkipPersonel entity = new EkipPersonel();
@@ -35,6 +35,7 @@ namespace BilgiYönetimSistemi.WinForm
             entity.tel = Convert.ToDecimal(txtTel.Text);
             entity.statu = txtStatu.Text;
             entity.birim = comboBirim.Text;
+            entity.calisiyor = calis;
             if (!EkipPersoneller.Ekle(entity))
             {
                 MessageBox.Show("Personel Eklenemedi");
@@ -50,6 +51,7 @@ namespace BilgiYönetimSistemi.WinForm
             guncelle.tel = Convert.ToDecimal(txtTel.Text);
             guncelle.statu = txtStatu.Text;
             guncelle.birim = comboBirim.Text;
+            guncelle.calisiyor = calis;
 
             if (!EkipPersoneller.Guncelle(guncelle))
             {
@@ -77,10 +79,12 @@ namespace BilgiYönetimSistemi.WinForm
             if (view.RowCount == 0)
                 MessageBox.Show("Gridview Boş");
             return;
+
             txtAdSoyad.Text = gridView1.GetFocusedRowCellValue("AdiSoyadi").ToString();
             txtTel.Text = gridView1.GetFocusedRowCellValue("Tel").ToString();
             txtStatu.Text = gridView1.GetFocusedRowCellValue("Statu").ToString();
             comboBirim.Text = gridView1.GetFocusedRowCellValue("Birim").ToString();
+
         }
 
         private void gridView1_CustomDrawEmptyForeground(object sender, DevExpress.XtraGrid.Views.Base.CustomDrawEventArgs e)
@@ -99,7 +103,9 @@ namespace BilgiYönetimSistemi.WinForm
 
         private void EkipPersonelForm_Load(object sender, EventArgs e)
         {
-
+            gridControl1.DataSource = EkipPersoneller.Listele();
+            toggleSwitch1.Properties.OffText = "Çalışmıyor";
+            toggleSwitch1.Properties.OnText = "Çalışıyor";
         }
 
         private void barButtonItem4_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -154,6 +160,27 @@ namespace BilgiYönetimSistemi.WinForm
                 throw;
             }
             
+        }
+
+        private void toggleSwitch1_Toggled(object sender, EventArgs e)
+        {
+            ToggleSwitch toggleSwitch = sender as ToggleSwitch;
+            if (toggleSwitch != null)
+            {
+                if (toggleSwitch.IsOn == true)
+                {
+                    calis = 1;
+                }
+                else
+                {
+                    calis = 0;
+                }
+            }
+        }
+
+        private void gridControl1_Click(object sender, EventArgs e)
+        {
+
         }
 
     }

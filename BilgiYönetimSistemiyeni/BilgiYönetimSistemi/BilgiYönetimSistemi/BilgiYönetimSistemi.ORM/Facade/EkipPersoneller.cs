@@ -24,6 +24,7 @@ namespace BilgiYönetimSistemi.ORM.Facade
             komut.Parameters.AddWithValue("@tel",entity.tel);
             komut.Parameters.AddWithValue("@statu",entity.statu);
             komut.Parameters.AddWithValue("@birim",entity.birim);
+            komut.Parameters.AddWithValue("@calisiyor",entity.calisiyor);
             return Araclar.komut_calisma(komut);
 
         }
@@ -43,6 +44,7 @@ namespace BilgiYönetimSistemi.ORM.Facade
             komut.Parameters.AddWithValue("@tel", guncelleEntity.tel);
             komut.Parameters.AddWithValue("@statu", guncelleEntity.statu);
             komut.Parameters.AddWithValue("@birim", guncelleEntity.birim);
+            komut.Parameters.AddWithValue("@calisiyor", guncelleEntity.calisiyor);
             return Araclar.komut_calisma(komut);
         }
     }

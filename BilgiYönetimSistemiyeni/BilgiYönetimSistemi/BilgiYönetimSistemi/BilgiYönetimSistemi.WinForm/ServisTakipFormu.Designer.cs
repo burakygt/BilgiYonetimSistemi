@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ServisTakipFormu));
-            DevExpress.XtraPrinting.BarCode.Code128Generator code128Generator2 = new DevExpress.XtraPrinting.BarCode.Code128Generator();
+            DevExpress.XtraPrinting.BarCode.Code128Generator code128Generator1 = new DevExpress.XtraPrinting.BarCode.Code128Generator();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.dosyaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.düzenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -83,6 +83,8 @@
             this.labelControl18 = new DevExpress.XtraEditors.LabelControl();
             this.panelControl6 = new DevExpress.XtraEditors.PanelControl();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.toggleSwitch1 = new DevExpress.XtraEditors.ToggleSwitch();
+            this.btnYenile = new DevExpress.XtraEditors.SimpleButton();
             this.dtTaahhüt = new System.Windows.Forms.DateTimePicker();
             this.labelControl27 = new DevExpress.XtraEditors.LabelControl();
             this.textModel = new System.Windows.Forms.TextBox();
@@ -141,7 +143,6 @@
             this.bKaydet = new DevExpress.XtraEditors.SimpleButton();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.yenileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.btnYenile = new DevExpress.XtraEditors.SimpleButton();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
@@ -171,6 +172,7 @@
             this.panelControl6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.toggleSwitch1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.beBarkod.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridIsci)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
@@ -670,6 +672,7 @@
             // 
             // groupControl1
             // 
+            this.groupControl1.Controls.Add(this.toggleSwitch1);
             this.groupControl1.Controls.Add(this.btnYenile);
             this.groupControl1.Controls.Add(this.dtTaahhüt);
             this.groupControl1.Controls.Add(this.labelControl27);
@@ -711,9 +714,29 @@
             this.groupControl1.TabIndex = 25;
             this.groupControl1.Text = "Ürün Bilgisi";
             // 
+            // toggleSwitch1
+            // 
+            this.toggleSwitch1.Location = new System.Drawing.Point(520, 210);
+            this.toggleSwitch1.Name = "toggleSwitch1";
+            this.toggleSwitch1.Properties.LookAndFeel.TouchUIMode = DevExpress.LookAndFeel.TouchUIMode.False;
+            this.toggleSwitch1.Properties.OffText = "Off";
+            this.toggleSwitch1.Properties.OnText = "On";
+            this.toggleSwitch1.Size = new System.Drawing.Size(123, 24);
+            this.toggleSwitch1.TabIndex = 34;
+            this.toggleSwitch1.Toggled += new System.EventHandler(this.toggleSwitch1_Toggled);
+            // 
+            // btnYenile
+            // 
+            this.btnYenile.Location = new System.Drawing.Point(285, 324);
+            this.btnYenile.Name = "btnYenile";
+            this.btnYenile.Size = new System.Drawing.Size(75, 21);
+            this.btnYenile.TabIndex = 33;
+            this.btnYenile.Text = "Yenile";
+            this.btnYenile.Click += new System.EventHandler(this.btnYenile_Click);
+            // 
             // dtTaahhüt
             // 
-            this.dtTaahhüt.Location = new System.Drawing.Point(458, 209);
+            this.dtTaahhüt.Location = new System.Drawing.Point(458, 184);
             this.dtTaahhüt.Name = "dtTaahhüt";
             this.dtTaahhüt.Size = new System.Drawing.Size(185, 20);
             this.dtTaahhüt.TabIndex = 32;
@@ -721,7 +744,7 @@
             // labelControl27
             // 
             this.labelControl27.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.labelControl27.Location = new System.Drawing.Point(337, 212);
+            this.labelControl27.Location = new System.Drawing.Point(337, 187);
             this.labelControl27.Name = "labelControl27";
             this.labelControl27.Size = new System.Drawing.Size(115, 13);
             this.labelControl27.TabIndex = 31;
@@ -753,7 +776,7 @@
             this.barCodeControl1.Name = "barCodeControl1";
             this.barCodeControl1.Padding = new System.Windows.Forms.Padding(10, 2, 10, 0);
             this.barCodeControl1.Size = new System.Drawing.Size(92, 23);
-            this.barCodeControl1.Symbology = code128Generator2;
+            this.barCodeControl1.Symbology = code128Generator1;
             this.barCodeControl1.TabIndex = 28;
             // 
             // simpleButton4
@@ -810,7 +833,7 @@
             // 
             // bGaranti
             // 
-            this.bGaranti.Location = new System.Drawing.Point(623, 175);
+            this.bGaranti.Location = new System.Drawing.Point(623, 151);
             this.bGaranti.Name = "bGaranti";
             this.bGaranti.Size = new System.Drawing.Size(20, 18);
             this.bGaranti.TabIndex = 21;
@@ -819,7 +842,7 @@
             // 
             // bIslem
             // 
-            this.bIslem.Location = new System.Drawing.Point(623, 136);
+            this.bIslem.Location = new System.Drawing.Point(623, 121);
             this.bIslem.Name = "bIslem";
             this.bIslem.Size = new System.Drawing.Size(20, 18);
             this.bIslem.TabIndex = 20;
@@ -828,7 +851,7 @@
             // 
             // bEkip
             // 
-            this.bEkip.Location = new System.Drawing.Point(623, 100);
+            this.bEkip.Location = new System.Drawing.Point(623, 90);
             this.bEkip.Name = "bEkip";
             this.bEkip.Size = new System.Drawing.Size(20, 18);
             this.bEkip.TabIndex = 19;
@@ -838,7 +861,7 @@
             // comboGarantiDurum
             // 
             this.comboGarantiDurum.FormattingEnabled = true;
-            this.comboGarantiDurum.Location = new System.Drawing.Point(431, 175);
+            this.comboGarantiDurum.Location = new System.Drawing.Point(431, 151);
             this.comboGarantiDurum.Name = "comboGarantiDurum";
             this.comboGarantiDurum.Size = new System.Drawing.Size(186, 21);
             this.comboGarantiDurum.TabIndex = 18;
@@ -846,7 +869,7 @@
             // comboIslemDurum
             // 
             this.comboIslemDurum.FormattingEnabled = true;
-            this.comboIslemDurum.Location = new System.Drawing.Point(431, 135);
+            this.comboIslemDurum.Location = new System.Drawing.Point(431, 120);
             this.comboIslemDurum.Name = "comboIslemDurum";
             this.comboIslemDurum.Size = new System.Drawing.Size(186, 21);
             this.comboIslemDurum.TabIndex = 17;
@@ -854,7 +877,7 @@
             // comboEkipPersonel
             // 
             this.comboEkipPersonel.FormattingEnabled = true;
-            this.comboEkipPersonel.Location = new System.Drawing.Point(431, 99);
+            this.comboEkipPersonel.Location = new System.Drawing.Point(431, 89);
             this.comboEkipPersonel.Name = "comboEkipPersonel";
             this.comboEkipPersonel.Size = new System.Drawing.Size(186, 21);
             this.comboEkipPersonel.TabIndex = 16;
@@ -862,7 +885,7 @@
             // comboUrunTeslimEden
             // 
             this.comboUrunTeslimEden.FormattingEnabled = true;
-            this.comboUrunTeslimEden.Location = new System.Drawing.Point(431, 64);
+            this.comboUrunTeslimEden.Location = new System.Drawing.Point(431, 59);
             this.comboUrunTeslimEden.Name = "comboUrunTeslimEden";
             this.comboUrunTeslimEden.Size = new System.Drawing.Size(186, 21);
             this.comboUrunTeslimEden.TabIndex = 15;
@@ -971,7 +994,7 @@
             // 
             // labelControl17
             // 
-            this.labelControl17.Location = new System.Drawing.Point(342, 178);
+            this.labelControl17.Location = new System.Drawing.Point(342, 156);
             this.labelControl17.Name = "labelControl17";
             this.labelControl17.Size = new System.Drawing.Size(75, 13);
             this.labelControl17.TabIndex = 9;
@@ -979,7 +1002,7 @@
             // 
             // labelControl16
             // 
-            this.labelControl16.Location = new System.Drawing.Point(342, 138);
+            this.labelControl16.Location = new System.Drawing.Point(347, 126);
             this.labelControl16.Name = "labelControl16";
             this.labelControl16.Size = new System.Drawing.Size(65, 13);
             this.labelControl16.TabIndex = 8;
@@ -987,7 +1010,7 @@
             // 
             // labelControl15
             // 
-            this.labelControl15.Location = new System.Drawing.Point(342, 102);
+            this.labelControl15.Location = new System.Drawing.Point(346, 92);
             this.labelControl15.Name = "labelControl15";
             this.labelControl15.Size = new System.Drawing.Size(64, 13);
             this.labelControl15.TabIndex = 7;
@@ -995,7 +1018,7 @@
             // 
             // labelControl14
             // 
-            this.labelControl14.Location = new System.Drawing.Point(342, 67);
+            this.labelControl14.Location = new System.Drawing.Point(342, 62);
             this.labelControl14.Name = "labelControl14";
             this.labelControl14.Size = new System.Drawing.Size(82, 13);
             this.labelControl14.TabIndex = 6;
@@ -1286,15 +1309,6 @@
             this.yenileToolStripMenuItem.Text = "Yenile";
             this.yenileToolStripMenuItem.Click += new System.EventHandler(this.yenileToolStripMenuItem_Click);
             // 
-            // btnYenile
-            // 
-            this.btnYenile.Location = new System.Drawing.Point(285, 324);
-            this.btnYenile.Name = "btnYenile";
-            this.btnYenile.Size = new System.Drawing.Size(75, 21);
-            this.btnYenile.TabIndex = 33;
-            this.btnYenile.Text = "Yenile";
-            this.btnYenile.Click += new System.EventHandler(this.btnYenile_Click);
-            // 
             // ServisTakipFormu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1349,6 +1363,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             this.groupControl1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.toggleSwitch1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.beBarkod.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridIsci)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
@@ -1482,6 +1497,7 @@
         private System.Windows.Forms.DateTimePicker dtTaahhüt;
         public DevExpress.XtraEditors.LabelControl labelControl27;
         private DevExpress.XtraEditors.SimpleButton btnYenile;
+        public DevExpress.XtraEditors.ToggleSwitch toggleSwitch1;
 
     }
 }

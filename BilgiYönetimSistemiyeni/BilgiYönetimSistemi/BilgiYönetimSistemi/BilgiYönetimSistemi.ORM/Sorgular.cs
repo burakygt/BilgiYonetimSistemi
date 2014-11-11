@@ -90,7 +90,7 @@ namespace BilgiYönetimSistemi.ORM
         }
         public static DataSet AnaFormGridDoldurma()
         {
-            SqlDataAdapter csa = new SqlDataAdapter("Select id ID,carikod CARIKOD,cariunvan CARIUNVAN,tel1 TEL1 from MusteriDetay", baglanti);
+            SqlDataAdapter csa = new SqlDataAdapter("Select id ID,carikod CARIKOD,cariunvan CARIUNVAN,tel1 TEL1  from MusteriDetay", baglanti);
             DataSet asda = new DataSet();
             csa.Fill(asda);
             return asda;

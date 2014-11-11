@@ -13,5 +13,6 @@ namespace BilgiYönetimSistemi.ORM.Entity
         public decimal tel { get; set; }
         public string statu { get; set; }
         public string birim { get; set; }
+        public int calisiyor { get; set; }
     }
 }
