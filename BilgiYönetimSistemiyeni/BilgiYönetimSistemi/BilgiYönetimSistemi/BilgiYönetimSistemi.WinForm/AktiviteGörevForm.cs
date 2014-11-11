@@ -25,7 +25,9 @@ namespace BilgiYönetimSistemi.WinForm
         }
         public static SqlConnection baglanti = new SqlConnection(ConfigurationManager.ConnectionStrings["BYS_baglanti"].ConnectionString);
         int gorevKodu,carikod,formno;
+        public static int hatirlat;
         string islemteslim, teslimsaat;
+        ServisTakipFormu stf = new ServisTakipFormu();
         private void simpleButton8_Click(object sender, EventArgs e)
         {
             GörevStatüleriForm gsf = new GörevStatüleriForm();
@@ -50,14 +52,26 @@ namespace BilgiYönetimSistemi.WinForm
         private void AktiviteGörevForm_Load(object sender, EventArgs e)
         {
             #region checkKontrol
-            if (cGörevBitis.Checked == false)
+            if (stf.toggleSwitch1.IsOn==true)
             {
                 dtGörevBitis.Enabled = false;
                 teGörBitisTarih.Enabled = false;
 
 
             }
-            if (cHatirlatma.Checked == false)
+            if (stf.toggleSwitch1.IsOn==  false)
+            {
+                dtHatirlatma.Enabled = false;
+                teHatirlatma.Enabled = false;
+            }
+            if(toggleSwitch1.IsOn==true )
+            {
+                dtGörevBitis.Enabled = false;
+                teGörBitisTarih.Enabled = false;
+
+
+            }
+            if (toggleSwitch1.IsOn == false)
             {
                 dtHatirlatma.Enabled = false;
                 teHatirlatma.Enabled = false;
@@ -98,9 +112,16 @@ namespace BilgiYönetimSistemi.WinForm
             txtTel1.BeepOnError = true;
             txtTel2.BeepOnError = true;
             #endregion 
-            // Click eventide var
-
-
+            carikod = Convert.ToInt32(AnaForm.carikod);
+            formno = Convert.ToInt32(AnaForm.formno); 
+            if(hatirlat==1)
+            {
+                toggleSwitch1.IsOn = true;
+            }
+            else
+            {
+                toggleSwitch1.IsOn = false;
+            }
         }
 
         private void cGörevBitis_CheckedChanged(object sender, EventArgs e)
@@ -117,23 +138,11 @@ namespace BilgiYönetimSistemi.WinForm
             }
         }
 
-        private void cHatirlatma_CheckedChanged(object sender, EventArgs e)
-        {
-            if (cHatirlatma.Checked)
-            {
-                dtHatirlatma.Enabled = true;
-                teHatirlatma.Enabled = true;
-            }
-            else
-            {
-                dtHatirlatma.Enabled = false;
-                teHatirlatma.Enabled = false;
-            }    
-            }
-        public void kayit()
+               public void kayit()
         {
             try
             {
+               
 
                 AktiviteGörev entity = new AktiviteGörev();
                 entity.görevkodu = gorevKodu;
@@ -141,7 +150,7 @@ namespace BilgiYönetimSistemi.WinForm
                 entity.kategori = beKategoriler.Text;
                 entity.görevbaslamatarihi = dtGörevBasTarih.Value;
 
-                entity.görevbaslamasaati = Convert.ToDateTime(maskedTextBox1.Text);
+                entity.görevbaslamasaati =Convert.ToDateTime( DateTime.Now.ToShortDateString()) ;
                 entity.tahgörevsüresiSaat = Convert.ToInt32(nudSaat.Value);
                 entity.tahgörevsüresiDakika = Convert.ToInt32(nudDakika.Value);
                 #region checkKayıt
@@ -154,9 +163,10 @@ namespace BilgiYönetimSistemi.WinForm
                     entity.görevbitisDurum = Convert.ToBoolean(0);
 
                 }
-                if (cHatirlatma.Checked)
+                if (toggleSwitch1.IsOn==true )
                 {
                     entity.hatirlamaDurum = Convert.ToBoolean(1);
+                    
                 }
                 else
                 {
@@ -166,10 +176,12 @@ namespace BilgiYönetimSistemi.WinForm
                 #endregion
                 entity.görevbitisTarih = dtGörevBitis.Value;
 
-                entity.görevbitisSaat = Convert.ToDateTime(teGörBitisTarih.Text);
+                entity.görevbitisSaat = Convert.ToDateTime(timeEdit1.EditValue);
                 entity.hatirlamaTarih = dtHatirlatma.Value;
-
-                entity.hatirlamaSaat = Convert.ToDateTime(teHatirlatma.Text);
+                if (toggleSwitch1.IsOn == true)
+                {
+                    entity.hatirlamaSaat = Convert.ToDateTime(teHatirlatma.Text);
+                }
                 entity.carikod = Convert.ToInt32(carikod);
                 entity.ticariunvan = txtTicariUnvan.Text;
                 entity.servisformno = Convert.ToInt32(formno);
@@ -222,17 +234,40 @@ namespace BilgiYönetimSistemi.WinForm
 
         private void comboIslemDurum_SelectedIndexChanged(object sender, EventArgs e)
         {
+            dtGörevBitis.Enabled = true;
+            timeEdit1.Enabled = true;
             if (comboIslemDurum.Text == "Teslim Edildi")
             {
                 DateTime myDateTime = DateTime.Now;
                 islemteslim = myDateTime.Date.ToString("yyyy-MM-dd HH:mm:ss");
-                dtGörevBitis.Text = islemteslim;
-                DateTime myDateTime2 = Convert.ToDateTime(DateTime.Now.ToShortTimeString());
-                teslimsaat = myDateTime.Date.Hour.ToString("HH:mm:ss");
-                teGörBitisTarih.Text = teslimsaat;
+                dtGörevBitis.Value =Convert.ToDateTime( islemteslim);
+                //DateTime myDateTime2 = Convert.ToDateTime(DateTime.Now.ToShortTimeString());
+                //teslimsaat = myDateTime.Date.Hour.ToString("HH:mm:ss");
+                teslimsaat = DateTime.Now.ToShortTimeString();
+                timeEdit1.EditValue = teslimsaat;
+
+                dtGörevBitis.Enabled = false;
+                timeEdit1.Enabled = false;
+                //teGörBitisTarih.Text = teslimsaat;
 
             }
         }
+
+        private void toggleSwitch1_Toggled(object sender, EventArgs e)
+        {
+            if (toggleSwitch1.IsOn==true)
+            {
+                dtHatirlatma.Enabled = true;
+                teHatirlatma.Enabled = true;
+            }
+            else
+            {
+                dtHatirlatma.Enabled = false;
+                teHatirlatma.Enabled = false;
+            }    
+        }
+
+       
 
     }
 }

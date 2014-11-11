@@ -19,6 +19,7 @@ namespace BilgiYönetimSistemi.WinForm
         public static SqlConnection baglanti = new SqlConnection(ConfigurationManager.ConnectionStrings["BYS_baglanti"].ConnectionString);
         public static string carikod, formno, sorgu1;
         SqlCommand verial = new SqlCommand();
+        DataTable verilerial = new DataTable();
         public AnaForm()
         {
             InitializeComponent();
@@ -129,7 +130,7 @@ namespace BilgiYönetimSistemi.WinForm
         {
             //   
 
-            SqlDataAdapter csa = new SqlDataAdapter("Select id SID,formNo FORMNO,carikod CARIK,cariunvan CARIUNV, kategori SKATEGORI,onayDurum SONAYDURUM,onayBilgisi SONAYBILGISI,teslimDurum STESLIMDURUM,barkodno SBARKODNO,isiYapan SISIYAPAN,urunTeslimEden SURUNTESLIMEDEN,probTuru SPROBLEM,soru1 SSORU1,cevap1 SCEVAP1,soru2 SSORU2,cevap2 SCEVAP2,soru3 SSORU3,cevap3 SCEVAP3, isletimsistemi SISLETIMSISTEMI,konsolturu SKONSOLTURU,kolsayisi SKOLSAYISI,serino SERINO,garantiDurumu GARANTIDURUM,islemDurumu ISLEMDURUM,(urunCinsi  + ' ' + marka  + ' ' + model ) as URUNDETAY ,girisBilgisi GIRISBILGISI,teslimBilgisi CIKISBILGISI,ekipPersonel EKIPPERSONEL from ServisTakip where carikod like '%" + gridView1.GetFocusedRowCellValue(col_carikod) + "%'", baglanti);
+            SqlDataAdapter csa = new SqlDataAdapter("Select id SID,formNo FORMNO,carikod CARIK,cariunvan CARIUNV, kategori SKATEGORI,onayDurum SONAYDURUM,onayBilgisi SONAYBILGISI,teslimDurum STESLIMDURUM,barkodno SBARKODNO,isiYapan SISIYAPAN,urunTeslimEden SURUNTESLIMEDEN,probTuru SPROBLEM,soru1 SSORU1,cevap1 SCEVAP1,soru2 SSORU2,cevap2 SCEVAP2,soru3 SSORU3,cevap3 SCEVAP3, isletimsistemi SISLETIMSISTEMI,konsolturu SKONSOLTURU,kolsayisi SKOLSAYISI,serino SERINO,garantiDurumu GARANTIDURUM,islemDurumu ISLEMDURUM,(urunCinsi  + ' ' + marka  + ' ' + model ) as URUNDETAY ,girisBilgisi GIRISBILGISI,teslimBilgisi CIKISBILGISI,ekipPersonel EKIPPERSONEL from ServisTakip where carikod like '%" + gridView1.GetFocusedRowCellValue(col_carikod) + "%' and islemiYapan = '" + Araclar.kullaniciadi + "'", baglanti);
             DataSet asda = new DataSet();
             csa.Fill(asda);
             gridControl2.DataSource = asda.Tables[0];
@@ -233,6 +234,7 @@ namespace BilgiYönetimSistemi.WinForm
             agf.txtGarantiDurum.Text = gridView2.GetFocusedRowCellValue(col_garantidurum).ToString();
             agf.comboIslemDurum.Text = gridView2.GetFocusedRowCellValue(col_islemdurum).ToString();
             agf.comboPersAdi.Text = gridView2.GetFocusedRowCellValue(col_ekipPersonel).ToString();
+            AktiviteGörevForm.hatirlat =Convert.ToInt32( gridView3.GetFocusedRowCellValue(col_AHatirDur));
             agf.MdiParent = this;
             agf.Show();
         }
@@ -257,7 +259,7 @@ namespace BilgiYönetimSistemi.WinForm
             akt.comboGörevStatüsü.Text = gridView3.GetFocusedRowCellValue(col_Statu).ToString();
             akt.beKategoriler.Text = gridView3.GetFocusedRowCellValue(col_AKategoriler).ToString();
             akt.dtGörevBasTarih.Value = Convert.ToDateTime(gridView3.GetFocusedRowCellValue(col_ABasTarihi));
-            akt.maskedTextBox1.Text = gridView3.GetFocusedRowCellValue(col_AGorBasSaat).ToString();
+            //akt.maskedTextBox1.Text = gridView3.GetFocusedRowCellValue(col_AGorBasSaat).ToString();
             akt.nudSaat.Value = Convert.ToDecimal(gridView3.GetFocusedRowCellValue(col_ATarGorSuSaat));
             akt.nudDakika.Value = Convert.ToDecimal(gridView3.GetFocusedRowCellValue(col_ATahGorSuDakika));
             //akt.cGörevBitis
@@ -279,6 +281,28 @@ namespace BilgiYönetimSistemi.WinForm
 
             akt.MdiParent = this;
             akt.Show();
+        }
+
+        private void AnaForm_Shown(object sender, EventArgs e)
+        {
+            Hatirlatma hatir = new Hatirlatma();
+            //DateTime myDateTime = DateTime.Now;
+            //string sqlFormattedDate = myDateTime.Date.ToString("yyyy-MM-dd HH:mm:ss");
+
+            SqlDataAdapter da = new SqlDataAdapter("select görevkodu,görevbaslamatarihi,görevbitistarihi,hatirlatmasaati,servisformno,problem,personelnotu from AktiviteGörev where HatirlatmaTarih = '" + DateTime.Today.ToString("yyyy-MM-dd") + "' and islemiYapan='" + Araclar.kullaniciadi + "' and hatirlatmadurum=1 order by hatirlatmasaati desc ", baglanti);
+
+
+            da.Fill(verilerial);
+            if(verilerial.Rows.Count>0)
+            {
+                MessageBox.Show("Bugün tarihli hatırlatmalarınız var !", "Uyarı !", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                hatir.Show();
+            }
+            else
+            {
+                MessageBox.Show("Bugün tarihli hatırlatmanız bulunmamaktadır", "Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+           
         }
     }
         

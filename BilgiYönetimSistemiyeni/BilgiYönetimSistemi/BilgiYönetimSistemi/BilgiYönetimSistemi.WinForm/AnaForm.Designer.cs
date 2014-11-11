@@ -664,7 +664,7 @@
             this.contextMenuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aktiviteVeGörevAtaToolStripMenuItem});
             this.contextMenuStrip2.Name = "contextMenuStrip2";
-            this.contextMenuStrip2.Size = new System.Drawing.Size(185, 26);
+            this.contextMenuStrip2.Size = new System.Drawing.Size(185, 48);
             // 
             // aktiviteVeGörevAtaToolStripMenuItem
             // 
@@ -1123,6 +1123,7 @@
             this.Text = "AnaForm";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.AnaForm_Load);
+            this.Shown += new System.EventHandler(this.AnaForm_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).EndInit();

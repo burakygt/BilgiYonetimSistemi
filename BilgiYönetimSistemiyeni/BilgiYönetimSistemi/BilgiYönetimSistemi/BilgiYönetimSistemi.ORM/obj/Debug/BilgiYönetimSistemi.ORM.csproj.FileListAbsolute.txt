@@ -21,3 +21,9 @@ C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\Bi
 C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.ORM\obj\Debug\BilgiYönetimSistemi.ORM.csprojResolveAssemblyReference.cache
 C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.ORM\obj\Debug\BilgiYönetimSistemi.ORM.dll
 C:\Users\Burak\Documents\Visual Studio 2012\Projects\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.ORM\obj\Debug\BilgiYönetimSistemi.ORM.pdb
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.ORM\bin\Debug\BilgiYönetimSistemi.ORM.dll
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.ORM\bin\Debug\BilgiYönetimSistemi.ORM.pdb
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.ORM\bin\Debug\itextsharp.dll
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.ORM\obj\Debug\BilgiYönetimSistemi.ORM.csprojResolveAssemblyReference.cache
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.ORM\obj\Debug\BilgiYönetimSistemi.ORM.dll
+C:\Users\Sek\Documents\GitHub\BilgiYonetimSistemi\BilgiYönetimSistemiyeni\BilgiYönetimSistemi\BilgiYönetimSistemi\BilgiYönetimSistemi.ORM\obj\Debug\BilgiYönetimSistemi.ORM.pdb

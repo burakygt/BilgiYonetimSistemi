@@ -26,8 +26,17 @@ namespace BilgiYönetimSistemi.WinForm
         private void Hatirlatma_Load(object sender, EventArgs e)
         {
             hatirlat();
-            saathatirlat();
+           
+        }
+        public void sorgugetir()
+        {
+            DateTime myDateTime = DateTime.Now;
+            string sqlFormattedDate = myDateTime.Date.ToString("yyyy-MM-dd HH:mm:ss");
 
+            SqlDataAdapter da = new SqlDataAdapter("select görevkodu,görevbaslamatarihi,görevbitistarihi,substring(convert(varchar, hatirlatmasaati, 24),1, 5) as HatırlatmaSaati,servisformno,problem,personelnotu from AktiviteGörev where HatirlatmaTarih = '" + sqlFormattedDate + "' and islemiYapan='" + Araclar.kullaniciadi + "' and hatirlatmadurum=1 order by hatirlatmasaati desc ", baglanti);
+
+            
+            da.Fill(verilerial);
         }
         public void saathatirlat()
         {
@@ -48,51 +57,20 @@ namespace BilgiYönetimSistemi.WinForm
             {
                 baglanti.Open();
             }
-            DateTime myDateTime = DateTime.Now;
-            string sqlFormattedDate = myDateTime.Date.ToString("yyyy-MM-dd HH:mm:ss");
-
-            SqlDataAdapter da = new SqlDataAdapter("select görevkodu,görevbaslamatarihi,görevbitistarihi,hatirlatmasaati,servisformno,problem,personelnotu from AktiviteGörev where HatirlatmaTarih = '" + sqlFormattedDate + "' and islemiYapan='" + Araclar.kullaniciadi + "' order by hatirlatmasaati desc ", baglanti);
-
-            DataTable verilerial = new DataTable();
-            da.Fill(verilerial);
+            sorgugetir();
 
             if (verilerial.Rows.Count > 0)
             {
                 dataGridView1.DataSource = verilerial;
                 //label1.Text = dataGridView1.Rows[0].Cells[1].Value.ToString();    gridden veri almak    
-                timer1.Enabled = true;
+               
 
             }
             baglanti.Close();
 
 
-
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-
-            if (toplamdakika != 0)
-            {
-                kalandakika = toplamdakika - 1;
-                if (toplamdakika == 60)
-                {
-                    MessageBox.Show("Hatırlatma için son 1 saat !", "Uyarı !", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    this.Show();
-                    timer1.Enabled = false;
-                }
-            }
-
-
-
-        }
-
-        private void Hatirlatma_Shown(object sender, EventArgs e)
-        {
-            if (toplamdakika < 60)
-            {
-                MessageBox.Show("Hatırlatma için kalan süre " + toplamdakika + " dakikadır", "Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-        }
+       
     }
 }

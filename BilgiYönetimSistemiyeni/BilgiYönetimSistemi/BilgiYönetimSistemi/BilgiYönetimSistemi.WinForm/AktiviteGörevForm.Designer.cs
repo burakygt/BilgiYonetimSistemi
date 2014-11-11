@@ -80,13 +80,13 @@
             this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
+            this.toggleSwitch1 = new DevExpress.XtraEditors.ToggleSwitch();
+            this.timeEdit1 = new DevExpress.XtraEditors.TimeEdit();
             this.teHatirlatma = new System.Windows.Forms.MaskedTextBox();
             this.teGörBitisTarih = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.labelControl15 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl11 = new DevExpress.XtraEditors.LabelControl();
             this.simpleButton11 = new DevExpress.XtraEditors.SimpleButton();
-            this.cHatirlatma = new DevExpress.XtraEditors.CheckEdit();
             this.cGörevBitis = new DevExpress.XtraEditors.CheckEdit();
             this.dtHatirlatma = new System.Windows.Forms.DateTimePicker();
             this.dtGörevBitis = new System.Windows.Forms.DateTimePicker();
@@ -142,7 +142,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtCariKod.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.cHatirlatma.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.toggleSwitch1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.timeEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cGörevBitis.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudDakika)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudSaat)).BeginInit();
@@ -389,6 +390,9 @@
             // comboIslemDurum
             // 
             this.comboIslemDurum.FormattingEnabled = true;
+            this.comboIslemDurum.Items.AddRange(new object[] {
+            "Tamamlandı",
+            "Teslim Edildi"});
             this.comboIslemDurum.Location = new System.Drawing.Point(126, 87);
             this.comboIslemDurum.Name = "comboIslemDurum";
             this.comboIslemDurum.Size = new System.Drawing.Size(167, 21);
@@ -607,13 +611,13 @@
             // 
             // groupControl2
             // 
+            this.groupControl2.Controls.Add(this.toggleSwitch1);
+            this.groupControl2.Controls.Add(this.timeEdit1);
             this.groupControl2.Controls.Add(this.teHatirlatma);
             this.groupControl2.Controls.Add(this.teGörBitisTarih);
-            this.groupControl2.Controls.Add(this.maskedTextBox1);
             this.groupControl2.Controls.Add(this.labelControl15);
             this.groupControl2.Controls.Add(this.labelControl11);
             this.groupControl2.Controls.Add(this.simpleButton11);
-            this.groupControl2.Controls.Add(this.cHatirlatma);
             this.groupControl2.Controls.Add(this.cGörevBitis);
             this.groupControl2.Controls.Add(this.dtHatirlatma);
             this.groupControl2.Controls.Add(this.dtGörevBitis);
@@ -629,6 +633,29 @@
             this.groupControl2.Size = new System.Drawing.Size(599, 124);
             this.groupControl2.TabIndex = 3;
             this.groupControl2.Text = "Görev Detayları";
+            // 
+            // toggleSwitch1
+            // 
+            this.toggleSwitch1.Location = new System.Drawing.Point(380, 100);
+            this.toggleSwitch1.Name = "toggleSwitch1";
+            this.toggleSwitch1.Properties.LookAndFeel.TouchUIMode = DevExpress.LookAndFeel.TouchUIMode.False;
+            this.toggleSwitch1.Properties.OffText = "Off";
+            this.toggleSwitch1.Properties.OnText = "On";
+            this.toggleSwitch1.Size = new System.Drawing.Size(123, 24);
+            this.toggleSwitch1.TabIndex = 35;
+            this.toggleSwitch1.Toggled += new System.EventHandler(this.toggleSwitch1_Toggled);
+            // 
+            // timeEdit1
+            // 
+            this.timeEdit1.EditValue = new System.DateTime(2014, 11, 8, 0, 0, 0, 0);
+            this.timeEdit1.Location = new System.Drawing.Point(380, 76);
+            this.timeEdit1.Name = "timeEdit1";
+            this.timeEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.timeEdit1.Properties.LookAndFeel.TouchUIMode = DevExpress.LookAndFeel.TouchUIMode.False;
+            this.timeEdit1.Properties.Mask.EditMask = "t";
+            this.timeEdit1.Size = new System.Drawing.Size(60, 20);
+            this.timeEdit1.TabIndex = 21;
             // 
             // teHatirlatma
             // 
@@ -647,15 +674,6 @@
             this.teGörBitisTarih.Size = new System.Drawing.Size(31, 20);
             this.teGörBitisTarih.TabIndex = 19;
             this.teGörBitisTarih.ValidatingType = typeof(System.DateTime);
-            // 
-            // maskedTextBox1
-            // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(343, 24);
-            this.maskedTextBox1.Mask = "90:00";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(31, 20);
-            this.maskedTextBox1.TabIndex = 18;
-            this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
             // 
             // labelControl15
             // 
@@ -677,21 +695,11 @@
             // 
             this.simpleButton11.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton11.Image")));
             this.simpleButton11.ImageLocation = DevExpress.XtraEditors.ImageLocation.TopCenter;
-            this.simpleButton11.Location = new System.Drawing.Point(453, 46);
+            this.simpleButton11.Location = new System.Drawing.Point(463, 24);
             this.simpleButton11.Name = "simpleButton11";
             this.simpleButton11.Size = new System.Drawing.Size(92, 57);
             this.simpleButton11.TabIndex = 12;
             this.simpleButton11.Text = "Günlük İş Planı";
-            // 
-            // cHatirlatma
-            // 
-            this.cHatirlatma.Location = new System.Drawing.Point(126, 103);
-            this.cHatirlatma.Name = "cHatirlatma";
-            this.cHatirlatma.Properties.Caption = "";
-            this.cHatirlatma.Properties.LookAndFeel.TouchUIMode = DevExpress.LookAndFeel.TouchUIMode.False;
-            this.cHatirlatma.Size = new System.Drawing.Size(23, 19);
-            this.cHatirlatma.TabIndex = 11;
-            this.cHatirlatma.CheckedChanged += new System.EventHandler(this.cHatirlatma_CheckedChanged);
             // 
             // cGörevBitis
             // 
@@ -989,7 +997,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
             this.groupControl2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.cHatirlatma.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.toggleSwitch1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.timeEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cGörevBitis.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudDakika)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudSaat)).EndInit();
@@ -1055,7 +1064,6 @@
         public DevExpress.XtraEditors.LabelControl labelControl10;
         public DevExpress.XtraEditors.LabelControl labelControl9;
         public DevExpress.XtraEditors.LabelControl labelControl8;
-        public DevExpress.XtraEditors.CheckEdit cHatirlatma;
         public DevExpress.XtraEditors.CheckEdit cGörevBitis;
         public System.Windows.Forms.DateTimePicker dtHatirlatma;
         public System.Windows.Forms.DateTimePicker dtGörevBitis;
@@ -1089,8 +1097,9 @@
         public DevExpress.XtraEditors.LabelControl labelControl11;
         public System.Windows.Forms.ComboBox comboGüzergah;
         public DevExpress.XtraEditors.LabelControl labelControl26;
-        public System.Windows.Forms.MaskedTextBox maskedTextBox1;
         public System.Windows.Forms.MaskedTextBox teHatirlatma;
         public System.Windows.Forms.MaskedTextBox teGörBitisTarih;
+        private DevExpress.XtraEditors.TimeEdit timeEdit1;
+        public DevExpress.XtraEditors.ToggleSwitch toggleSwitch1;
     }
 }
